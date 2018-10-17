@@ -1,0 +1,29 @@
+{
+  "Locator": {
+   "Login_Portal":{
+    "user_id":"//input[@id='userName']",
+    "password":"//input[@id='password']",
+    "default_Log_btn":"//input[@value='Login']",
+    "config_log_btn":"//button[@type='button']",
+     "land_log_btn": "//*[@id='submitBtn']"
+    },
+   "Config_Portal":{
+     "Config-Manag": {
+       "config_mng_btn": "//span[@class='icon-wrench']",
+       "search_box":"//input[@id='searchTxtBox']",
+       "txt_elem":"//input[@name='property-value']",
+       "drop_down_elem":"//button[@name='property-value']",
+       "select_true_value":"//a[@value='true']",
+       "select_false_value":"//a[@value='false']",
+       "select_instance":"//button[@name='instance-value']",
+       "delete_instance":"//button[@value='OWNER']",
+       "instance":"//a[text()='OWNER']",
+       "clone":"document.getElementsByClassName('action-btn clone')[3].click()",
+       "deleteclone":"document.getElementsByClassName('icon wct-delete-trash-1')[0].click()",
+       "resettodefault":"document.getElementsByClassName('action-btn undo')[3].click()",
+       "advancesearh":"document.getElementsByXpath('//a[@data-toggle='modal']').click()",
+       "advancesearchtext":"Client Device Countdown"
+     }
+    }
+  }
+}
