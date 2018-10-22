@@ -1,0 +1,20 @@
+{
+  "Port": {
+    "httpsport": "https://"
+  },
+  "Instance":{
+  "InstanceName": "krutik-pc/"
+  },
+  "Web":{
+  "safehandweb": "safehand-web/",
+  "lb":  "safehand-web/lb/"
+  },
+  "Login":{
+    "core":"core/login.web",
+    "report": "reports/login.web",
+    "servicerequest":"sh/servicerequest/login.htm?sitecode=BHQ",
+    "finance":"payment/login.html",
+    "land":"doc/login.htm",
+    "GTN":"/products/gtn/html/screening"
+  }
+}
