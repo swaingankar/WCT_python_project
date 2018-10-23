@@ -3,7 +3,7 @@
     "httpsport": "https://"
   },
   "Instance":{
-  "InstanceName": "krutik-pc/"
+  "InstanceName": "wct-pc/"
   },
   "Web":{
   "safehandweb": "safehand-web/",
@@ -12,7 +12,7 @@
   "Login":{
     "core":"core/login.web",
     "report": "reports/login.web",
-    "servicerequest":"sh/servicerequest/login.htm?sitecode=BHQ",
+    "servicerequest":"sh/servicerequest/login.htm",
     "finance":"payment/login.html",
     "land":"doc/login.htm",
     "GTN":"/products/gtn/html/screening"

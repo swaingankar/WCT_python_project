@@ -1,5 +1,5 @@
 import json
-from test_suit.functional.automated.component.environmentsetup  import setUp
+from test_suit.functional.automated.component.environmentsetup import setUp
 
 def safehand_admin_portal(i):
     driver = setUp(i)

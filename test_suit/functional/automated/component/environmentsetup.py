@@ -1,5 +1,5 @@
 import datetime
-import unittest
+
 from test_suit.functional.automated.component.test_driver import Driver
 
 def setUp(i):

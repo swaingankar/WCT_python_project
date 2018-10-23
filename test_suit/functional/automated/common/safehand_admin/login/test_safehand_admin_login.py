@@ -3,7 +3,7 @@ from time import sleep
 import pytest
 import yaml
 from test_suit.functional.automated.common.safehand_admin.login.portal import safehand_admin_portal
-Error Loading Project: Cannot load module WCT_python_project Details...
+
 
 @pytest.mark.parametrize("i", ['Chrome','IE','Firefox'])
 def test_valid(i):
@@ -25,6 +25,7 @@ def test_valid(i):
     assert elem == valids
     driver.quit()
 
+
 @pytest.mark.parametrize("i", ['Chrome','IE','Firefox'])
 def test_invalid_password(i):
     driver = safehand_admin_portal(i)
@@ -44,6 +45,7 @@ def test_invalid_password(i):
     element_locator.close()
     assert elem == error1
     driver.quit()
+
 
 @pytest.mark.parametrize("i", ['Chrome','IE','Firefox'])
 def test_invalid_username(i):
