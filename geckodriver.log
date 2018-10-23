@@ -1,0 +1,22 @@
+1540289141543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sachin\\AppData\\Local\\Temp\\rust_mozprofile.iEEc99SnuzHN"
+[Child 13672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13672, 1540289181641	Marionette	INFO	Listening on port 52249
+1540289182148	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540289182195	Marionette	DEBUG	[6442450945] Frame script loaded
+1540289182219	Marionette	DEBUG	[6442450945] Frame script registered
+1540289183291	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540289186581	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540289186603	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540289195000	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for about:neterror?e=dnsNotFound&u=https%3A//wct-pc/safehand-web/core/login.web&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20wct-pc.
+[Parent 1400, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1400, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346[Child 1092, Chrome_ChildThread] WARNING: pipe erro[Child 14160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346r
+
+: 109: file z:/build[Child 14160/,[b Chromeuild/src/ipc/chromium/srChild 9556, Chrome_ChildT_ChildThreadc/chrome/common/iphread] WA] WARNING: pipe error: 109RNING: pic_channel_: file z:/pe error: 1win.cc, line 346
+build/build09: file z:/build/build/src/ipc/chr[Child 1092, /sChrome_Chilomium/dThread] rc/ipc/chromiuWARNING: src/chrome/common/ipc_pipecham/src/chrome/common/ipc_ error: 109: filchannel_win.cc, line z:/builnneld/be 346
+_win.cc, line 346
+uild/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1540289243978	Marionette	INFO	Stopped listening on port 52249
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
