@@ -11,7 +11,7 @@ try:
 	print(direc)
 	if not os.path.exists(direc+"/WCT_jenkins_pytest/allure-results/history"):
 		os.mkdir(direc+"/WCT_jenkins_pytest/allure-results/history")
-		
+
 	files = os.listdir(direc+"/WCT_jenkins_pytest/allure-report/history")
 	print(files)
 	for f in files:

@@ -1,10 +1,15 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options as Chrome_Options
+from selenium.webdriver.firefox.options import Options as Firefox_Options
 
 
 class Driver:
     @staticmethod
     def chrome():
-        driver = webdriver.Chrome()
+        options = Chrome_Options()
+        options.add_argument("--headless")
+        driver = webdriver.Chrome(options=options)
+        print("Chrome has started !!!")
         return driver
     @staticmethod
     def ie():
@@ -12,5 +17,10 @@ class Driver:
         return driver
     @staticmethod
     def firefox():
-        driver = webdriver.Firefox()
+        options = Firefox_Options()
+        options.add_argument("--headless")
+        driver = webdriver.Firefox(firefox_options=options)
+        print("Firefox has started !!!")
         return driver
+
+
