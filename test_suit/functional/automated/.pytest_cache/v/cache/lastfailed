@@ -1,0 +1,8 @@
+{
+  "common/safehand_admin/login/test_safehand_admin_login.py": true,
+  "common/safehand_admin/login/test_safehand_finance_login.py": true,
+  "common/safehand_admin/login/test_safehand_land_doc_login.py": true,
+  "common/safehand_admin/login/test_safehand_reports_login.py": true,
+  "common/safehand_admin/login/test_safehand_service_request_login.py": true,
+  "common/safehand_admin/login/test_try_login_with_invalid_password.py": true
+}

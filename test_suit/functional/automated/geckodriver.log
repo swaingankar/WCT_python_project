@@ -1,0 +1,8 @@
+1540368592823	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sachin\\AppData\\Local\\Temp\\rust_mozprofile.vwm07oNe7iPy"
+*** You are running in headless mode.
+[Parent 15776, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1540368606916	Marionette	INFO	Listening on port 65230
+1540368607365	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540368607407	Marionette	DEBUG	[6442450945] Frame script loaded
+1540368607409	Marionette	DEBUG	[6442450945] Frame script registered
