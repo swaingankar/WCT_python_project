@@ -254,4 +254,74 @@ JavaScript warning: https://wct-pc/safehand-web/products/sh/js/jquery%202.0.3.js
 [Child 16368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Parent 19836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Child 13036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 
+[Child 1540803406871	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sachin\\AppData\\Local\\Temp\\rust_mozprofile.UtU4ef6WpVLg"
+*** You are running in headless mode.
+1540803424173	Marionette	INFO	Listening on port 54727
+[Child 13756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1540803424497	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540803424538	Marionette	DEBUG	[6442450945] Frame script loaded
+1540803424540	Marionette	DEBUG	[6442450945] Frame script registered
+1540803424909	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540803427264	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://wct-pc/safehand-web/products/core/js/jquery%202.0.3.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://wct-pc/safehand-web/products/core/js/jquery%202.0.3.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1540803429136	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://wct-pc/safehand-web/core/login.web
+1540803429174	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://wct-pc/safehand-web/core/login.web
+1540803433796	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://wct-pc/safehand-web/core/login.web
+1540803435424	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://wct-pc/safehand-web/core/login.web
+1540803435456	Marionette	DEBUG	[6442450945] Received DOM event unload for https://wct-pc/safehand-web/core/login.web
+JavaScript warning: https://wct-pc/safehand-web/products/core/js/jquery%202.0.3.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1540803438782	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://wct-pc/safehand-web/core/welcome.htm
+1540803438812	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://wct-pc/safehand-web/core/welcome.htm
+1540803441452	Marionette	INFO	Stopped listening on port 54727
+[Parent 4660, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1540803567635	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sachin\\AppData\\Local\\Temp\\rust_mozprofile.iPZPLGA2vRoX"
+*** You are running in headless mode.
+1540803573565	Marionette	INFO	Listening on port 54835
+1540803573657	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540803581594	Marionette	DEBUG	[6442450945] Frame script loaded
+1540803581596	Marionette	DEBUG	[6442450945] Frame script registered
+1540803581650	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540803583783	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://wct-pc/safehand-web/products/core/js/jquery%202.0.3.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://wct-pc/safehand-web/products/core/js/jquery%202.0.3.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1540803586715	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://wct-pc/safehand-web/core/login.web
+1540803586779	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://wct-pc/safehand-web/core/login.web
+1540803590626	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://wct-pc/safehand-web/core/login.web
+1540803590957	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://wct-pc/safehand-web/core/login.web
+1540803590958	Marionette	DEBUG	[6442450945] Received DOM event unload for https://wct-pc/safehand-web/core/login.web
+JavaScript warning: https://wct-pc/safehand-web/products/core/js/jquery%202.0.3.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://wct-pc/safehand-web/products/core/js/jquery%202.0.3.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1540803591163	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://wct-pc/safehand-web/core/login.web?errorMessage=Login%20failed.%20Username%20and/or%20password%20do%20not%20match
+1540803591179	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://wct-pc/safehand-web/core/login.web?errorMessage=Login%20failed.%20Username%20and/or%20password%20do%20not%20match
+1540803593214	Marionette	INFO	Stopped listening on port 54835
+[Child 11404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11404, Chrome_ChildThread] WARNIN[Parent 14536, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1540803713202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sachin\\AppData\\Local\\Temp\\rust_mozprofile.UbLGXpaOHp89"
+*** You are running in headless mode.
+[Child 14928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1540803729317	Marionette	INFO	Listening on port 54940
+1540803729913	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540803731803	Marionette	DEBUG	[6442450945] Frame script loaded
+1540803731805	Marionette	DEBUG	[6442450945] Frame script registered
+1540803734834	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540803740189	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://wct-pc/safehand-web/products/core/js/jquery%202.0.3.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://wct-pc/safehand-web/products/core/js/jquery%202.0.3.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1540803743464	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://wct-pc/safehand-web/core/login.web
+1540803743657	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://wct-pc/safehand-web/core/login.web
+1540803755182	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://wct-pc/safehand-web/core/login.web
+1540803755838	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://wct-pc/safehand-web/core/login.web
+1540803755840	Marionette	DEBUG	[6442450945] Received DOM event unload for https://wct-pc/safehand-web/core/login.web
+JavaScript warning: https://wct-pc/safehand-web/products/core/js/jquery%202.0.3.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://wct-pc/safehand-web/products/core/js/jquery%202.0.3.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1540803756363	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://wct-pc/safehand-web/core/login.web?errorMessage=Login%20failed.%20Username%20and/or%20password%20do%20not%20match
+1540803756382	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://wct-pc/safehand-web/core/login.web?errorMessage=Login%20failed.%20Username%20and/or%20password%20do%20not%20match
+1540803759070	Marionette	INFO	Stopped listening on port 54940
+[Parent 8372, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8372, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line[Child 18024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346 
+346
+[Child 1802[Child 616, Chrome_ChildTh
