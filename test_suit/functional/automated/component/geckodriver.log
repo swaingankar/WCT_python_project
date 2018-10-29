@@ -137,3 +137,9 @@ console.error: PushService:
 [Child 8741540368559039	Marionette	WARN	TLS certificate errors will be ignored for this session
 1540368559143	Marionette	DEBUG	[6442450945] Frame script loaded
 1540368559155	Marionette	DEBUG	[6442450945] Frame script registered
+1540380188133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sachin\\AppData\\Local\\Temp\\rust_mozprofile.8jMhxtOXOoI8"
+*** You are running in headless mode.
+1540380200373	Marionette	INFO	Listening on port 53466
+1540380201112	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540380201155	Marionette	DEBUG	[4294967297] Frame script loaded
+1540380201299	Marionette	DEBUG	[4294967297] Frame script registered
