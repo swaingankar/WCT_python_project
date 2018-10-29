@@ -20,7 +20,6 @@ class Driver:
         options = Firefox_Options()
         options.add_argument("--headless")
         driver = webdriver.Firefox(options=options)
-        print("Firefox has started !!!")
         return driver
 
 
