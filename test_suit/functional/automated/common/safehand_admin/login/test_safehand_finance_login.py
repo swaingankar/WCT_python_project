@@ -13,7 +13,7 @@ def test_valid(i):
     credentials = json.load(cred)
     locator = json.load(element_locator)
     valid = yaml.load(validation)
-    driver.get_screenshot_as_file("C:\\Users\\SANTOSH\\PycharmProjects\\LoginConfig\\screenshots\\login_2.png")
+    #driver.get_screenshot_as_file("C:\\Users\\SANTOSH\\PycharmProjects\\LoginConfig\\screenshots\\login_2.png")
     driver.find_element_by_xpath(locator['Locator']['Login_Portal']['user_id']).send_keys(credentials['Credentials']['sausername'])  # Find the username field in the page and fill the login id
     driver.find_element_by_xpath(locator['Locator']['Login_Portal']['password']).send_keys(credentials['Credentials']['sapassword'])  # Find the password field in the page and fill the password
     driver.find_element_by_xpath(locator['Locator']['Login_Portal']['land_log_btn']).click()
