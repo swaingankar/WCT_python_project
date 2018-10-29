@@ -9,7 +9,6 @@ class Driver:
         options = Chrome_Options()
         options.add_argument("--headless")
         driver = webdriver.Chrome(options=options)
-        print("Chrome has started !!!")
         return driver
     @staticmethod
     def ie():
@@ -23,4 +22,4 @@ class Driver:
         return driver
 
 
-print(Driver.firefox())
+
