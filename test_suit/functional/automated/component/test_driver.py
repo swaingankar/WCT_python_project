@@ -7,8 +7,8 @@ class Driver:
     @staticmethod
     def chrome():
         options = Chrome_Options()
-        options.add_argument("--headless")
-        driver = webdriver.Chrome(options=options)
+        #options.add_argument("--headless")
+        driver = webdriver.Chrome()
         return driver
     @staticmethod
     def ie():
@@ -17,8 +17,8 @@ class Driver:
     @staticmethod
     def firefox():
         options = Firefox_Options()
-        options.add_argument("--headless")
-        driver = webdriver.Firefox(options=options)
+        #options.add_argument("--headless")
+        driver = webdriver.Firefox()
         return driver
 
 

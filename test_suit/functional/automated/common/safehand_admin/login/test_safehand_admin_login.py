@@ -7,6 +7,7 @@ from test_suit.functional.automated.common.safehand_admin.login.portal import sa
 
 @pytest.mark.parametrize("i", ['Chrome','IE','Firefox'])
 def test_valid(i):
+
     driver = safehand_admin_portal(i)
     element_locator = open("test_suit/functional/json/elementlocator.json", "r", encoding="utf-8")
     cred = open("test_suit/functional/json/credentials.json", "r", encoding="utf-8")
